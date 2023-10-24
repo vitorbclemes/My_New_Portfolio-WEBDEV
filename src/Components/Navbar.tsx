@@ -12,7 +12,7 @@ export default function Navbar(){
     setSelectedOption(index);
   };
 
-  const options = ['About', 'Education', 'Home', 'Experience', 'Files'];
+  const options = ['About', 'Skills', 'Home', 'Experience', 'Files'];
 
     return(
         <div className={styles.container}>
