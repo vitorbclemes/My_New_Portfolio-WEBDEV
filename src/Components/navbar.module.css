@@ -1,0 +1,23 @@
+.container {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 5em;
+    color: var(--main-color);
+    font-weight: bold;
+    position: fixed;
+    top:0;
+    transition: all 0.3s ease;
+}
+
+.container span{
+    cursor: pointer;
+}
+
+.selected {
+    transform: scale(1.2); /* Scale selected option */
+    transition: transform 0.3s ease;
+  }
