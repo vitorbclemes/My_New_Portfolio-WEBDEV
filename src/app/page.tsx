@@ -31,9 +31,11 @@ export default function Home() {
         </p>
 
         <p>I am a </p>
-          <div style={button}>
-            WEB FULLSTACK DEVELOPER
-          </div>
+        <div style={button}>
+          WEB FULLSTACK DEVELOPER
+        </div>
+
+        <img src="./separator.svg" alt="1" />
 
         <p>Remember to connect with me in</p>
         <div className="flexRow" style={iconRow}>
