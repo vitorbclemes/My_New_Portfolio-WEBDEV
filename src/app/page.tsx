@@ -14,7 +14,7 @@ export default function Home() {
     <main>
       <div className="content fadeIn">
         <span className="title">
-          HELLO! I'M VITOR BERNSTORFF CLEMES!
+          HELLO! IM VITOR BERNSTORFF CLEMES!
         </span>
         <p>
             I'm so glad to have you here!<br/>
