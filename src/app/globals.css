@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --main-color:#d08df2;
+}
+
 body {
   background-image: url('../../public/background.jpg');
 }
