@@ -36,6 +36,14 @@ body {
   height: 100vh;
 }
 
+.clickable {
+  cursor: pointer;
+}
+
+.b {
+  font-weight: bold;
+}
+
 .fadeIn {
   opacity: 0;
   animation: fadeInAnimation 0.5s ease-in forwards;
