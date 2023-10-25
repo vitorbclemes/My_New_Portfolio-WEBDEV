@@ -9,10 +9,9 @@ const button = {
     borderRadius:'15px',
     padding:'10px',
     marginBottom:'20px'
-  };
+};
 
 export default function Files(){
-
     return(
         <div className="content slide-in-right">
             <span className="title">Files</span>

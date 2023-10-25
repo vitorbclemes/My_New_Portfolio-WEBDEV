@@ -2,23 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --main-color:#d08df2;
-}
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 body {
-  /* color: rgb(var(--foreground-rgb)); */
   background-image: url('../../public/background.jpg');
 }
 
+/* Usefull classes */
 .flexRow{
   display: flex;
   flex-direction: row;
@@ -49,6 +37,7 @@ body {
   font-weight: bold;
 }
 
+/* Animations */
 .fadeIn {
   opacity: 0;
   animation: fadeInAnimation 0.5s ease-in forwards;
@@ -100,7 +89,7 @@ body {
 }
 
 
-
+/* Recurrent components */
 .content {
   width: 30em;
   height: 30em;

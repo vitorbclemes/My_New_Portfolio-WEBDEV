@@ -13,11 +13,7 @@
     transition: all 0.3s ease;
 }
 
-.container span{
-    cursor: pointer;
-}
-
 .selected {
     transform: scale(1.2); /* Scale selected option */
     transition: transform 0.3s ease;
-  }
+}

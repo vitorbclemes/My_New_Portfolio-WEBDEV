@@ -1,33 +1,31 @@
 'use client'
 import styles from './experience.module.css';
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 
 type BackgroundProps = {
-    title:string,
-    subTitle:string,
-    description:string,
+  title:string,
+  subTitle:string,
+  description:string,
 }
 
 function ExpModule(data : BackgroundProps){
-    return(
-        <>
-            <div className={styles.viewHeader}>
-                <span className={styles.viewHeaderTitle}>{data.title}</span>
-                <span className={styles.viewHeaderSub}>{data.subTitle}</span>
-            </div>
-            <p style={{marginTop:'20px'}}>
-                {data.description}
-            </p>
-        </>
-    )
+  return(
+      <>
+        <div className={styles.viewHeader}>
+            <span className={styles.viewHeaderTitle}>{data.title}</span>
+            <span className={styles.viewHeaderSub}>{data.subTitle}</span>
+        </div>
+        <p style={{marginTop:'20px'}}>
+            {data.description}
+        </p>
+      </>
+  )
 }
 
 
 export default function Experience() {
   const [selectedView, setSelectedView] = useState(0);
   const [page,setPage] = useState(0);
-
-
 
   const handleView = (arg:number) =>{
     setSelectedView(arg);

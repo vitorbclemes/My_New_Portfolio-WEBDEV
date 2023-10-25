@@ -14,18 +14,19 @@ export default function Navbar(){
 
   const options = ['About', 'Skills', 'Home', 'Experience', 'Files'];
 
-    return(
-        <div className={styles.container}>
-        {options.map((option, index) => (
-          <Link
-            key={index}
-            className={index === selectedOption ? styles.selected : ''}
-            onClick={() => handleOptionClick(index)}
-            href={option != 'Home' ? `/${option.toLowerCase()}` : '/'}
-          >
-            {option}
-          </Link>
-        ))}
-      </div>
-    )
+  return(
+    <div className={styles.container}>
+      {options.map((option, index) => (
+        <Link
+          key={index}
+          className={index === selectedOption ? styles.selected : ''}
+          onClick={() => handleOptionClick(index)}
+          href={option != 'Home' ? `/${option.toLowerCase()}` : '/'}
+          style={{maxWidth:'55px'}}
+        >
+          {option}
+        </Link>
+      ))}
+    </div>
+  )
 }
