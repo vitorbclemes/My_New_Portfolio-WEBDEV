@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 50px;
+}
+
+.fileDescription {
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+}
