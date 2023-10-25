@@ -1,5 +1,4 @@
 "use client"
-
 import styles from './navbar.module.css'
 import React, { useState } from 'react';
 import Link from 'next/link';
@@ -12,7 +11,7 @@ export default function Navbar(){
     setSelectedOption(index);
   };
 
-  const options = ['About', 'Skills', 'Home', 'Experience', 'Files'];
+  const options = ['About', 'Skills', 'Home', 'Experience', 'Projects','Files'];
 
   return(
     <div className={styles.container}>

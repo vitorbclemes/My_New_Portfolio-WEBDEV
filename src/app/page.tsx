@@ -4,15 +4,6 @@ import { faLinkedinIn,faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
-  const button = {
-    background: 'linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FF9F00)',
-    color:'#FFF',
-    border:'1px solid #5c1385',
-    borderRadius:'15px',
-    padding:'10px',
-    marginBottom:'20px'
-  };
-
   const iconRow = {
     justifyContent:'space-between',
     alignItems:'center',
@@ -31,7 +22,7 @@ export default function Home() {
         </p>
 
         <p>I am a </p>
-        <div style={button}>
+        <div className='button'>
           WEB FULLSTACK DEVELOPER
         </div>
 

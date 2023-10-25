@@ -1,0 +1,10 @@
+.select {
+    width: 350px;
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    color:var(--main-color)
+}

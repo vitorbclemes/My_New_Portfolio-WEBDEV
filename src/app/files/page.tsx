@@ -2,15 +2,6 @@ import styles from './files.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
-const button = {
-    background: 'linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FF9F00)',
-    color:'#FFF',
-    border:'1px solid #5c1385',
-    borderRadius:'15px',
-    padding:'10px',
-    marginBottom:'20px'
-};
-
 export default function Files(){
     return(
         <div className="content slide-in-right">
@@ -25,7 +16,7 @@ export default function Files(){
                     <span className={styles.fileDescription}>Resume (English)</span>
                 </a>
             </div>
-            <div style={button}>Click on file to download</div>
+            <div className='button'>Click on file to download</div>
         </div>
     )
 }

@@ -123,3 +123,11 @@ p{
   font-size: 15px;
 }
 
+.button{
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FF9F00);
+  color:#FFF;
+  border:1px solid #5c1385;
+  border-radius:15px;
+  padding:10px;
+  margin-bottom:20px;
+}
