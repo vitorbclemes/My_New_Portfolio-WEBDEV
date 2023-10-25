@@ -25,7 +25,7 @@ function ExpModule(data : BackgroundProps){
 
 export default function Experience() {
   const [selectedView, setSelectedView] = useState(0);
-  const [page,setPage] = useState(1);
+  const [page,setPage] = useState(0);
 
 
 
