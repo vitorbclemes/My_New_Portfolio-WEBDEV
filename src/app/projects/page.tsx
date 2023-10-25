@@ -30,7 +30,7 @@ export default function Github() {
                 <>
                     <span className="title">Github Workshop</span>
                     <p>This section it's just a helper tool to access my Git repositories. It uses the GITHUB API to fetch my public repos</p>
-                    <p>You may notice some of then are related to web development (tagged as <ColorfullSpan {...{color:'#ba8209',message:'WEB-DEV'}}/>), while others are projects from my university classes (tagged as <ColorfullSpan {...{color:'#6ea2f0',message:'UC'}}/>)</p>
+                    <p>You may notice some of then are related to web development (tagged as <ColorfullSpan {...{color:'#ba8209',message:'WEBDEV'}}/>), while others are projects from my university classes (tagged as <ColorfullSpan {...{color:'#6ea2f0',message:'UC'}}/>)</p>
                     <select value={selectedRepo} onChange={(e)=>setSelectedRepo(e.target.value)} className={styles.select}>
                         {data.map((repo) => (
                             <option key={repo.id} value={repo.html_url}>{repo.name}</option>
