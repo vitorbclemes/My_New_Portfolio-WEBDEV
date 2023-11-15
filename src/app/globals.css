@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --main-color:#d08df2;
@@ -8,8 +5,20 @@
 
 body {
   background-image: url('../../public/background.jpg');
+  background-size: cover;  /* or 'contain' based on your preference */
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: hidden;
 }
 
+a {
+  text-decoration: none ;
+  font-size: 18px;
+}
+
+a::after{
+  outline: none;
+}
 /* Usefull classes */
 .flexRow{
   display: flex;
@@ -95,8 +104,8 @@ body {
 
 /* Recurrent components */
 .content {
-  width: 30em;
-  height: 30em;
+  width: 25rem;
+  height: 25rem;
   border: 2px solid #5c1385;
   border-radius: 15px;
   background: linear-gradient(to right, #250745, #1f0d33);

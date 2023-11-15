@@ -9,11 +9,11 @@
     color: var(--main-color);
     font-weight: bold;
     position: fixed;
-    top:0;
+    top:30px;
     transition: all 0.3s ease;
 }
 
 .selected {
-    transform: scale(1.2); /* Scale selected option */
+    transform: scale(1.4); /* Scale selected option */
     transition: transform 0.3s ease;
-}
+}   
